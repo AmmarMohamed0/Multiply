@@ -1,12 +1,12 @@
 import tkinter as tk
 from tkinter import font as tkf
 
-# Counter Project
+
 
 class Multiply(tk.Tk):
     def __init__(self):
         super(Multiply, self).__init__()
-        self.title("Counter Project")
+        self.title("Multiply Project")
         self.geometry("+500+250")
         self.font = tkf.Font(name='Arial', size=20, weight="bold")
         self.font2 = tkf.Font(name='Arial3', size=10, weight="bold")
